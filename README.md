@@ -23,9 +23,6 @@
   <a href="#acknowledgement">Acknowledgement</a>
 </p>
 
-## Deployed Version
-Live demo (Feel free to visit) 👉 : https://lakshman-natours.herokuapp.com/
-
 
 ## Key Features
 
@@ -35,7 +32,6 @@ Live demo (Feel free to visit) 👉 : https://lakshman-natours.herokuapp.com/
   - Manage booking, check tours map, check users' reviews and rating
 * User profile
   - Update username, photo, email, and password
-* Credit card Payment
 
 
 ## Demonstration
@@ -44,9 +40,6 @@ Live demo (Feel free to visit) 👉 : https://lakshman-natours.herokuapp.com/
 
 #### Tour Details :
 ![tourOverviewonline-video-cutterc](https://user-images.githubusercontent.com/58518192/72606859-a0b78900-3949-11ea-8f0d-ef44c789957b.gif)
-
-#### Payment Process :
-![paymentprocess-1-ycnhrceamp4-7fW](https://user-images.githubusercontent.com/58518192/72606973-d9eff900-3949-11ea-9a2e-f84a6581bef3.gif)
 
 #### Booked Tours :
 ![rsz_bookedtours](https://user-images.githubusercontent.com/58518192/72607747-6a7b0900-394b-11ea-8b9f-5330531ca2eb.png)
@@ -75,11 +68,6 @@ Live demo (Feel free to visit) 👉 : https://lakshman-natours.herokuapp.com/
 * Finished!
 
 
-
-### Manage your booking
-
-* Check the tour you have booked in "Manage Booking" page in your user settings. You'll be automatically redirected to this
-  page after you have completed the booking.
 
 ### Update your profile
 
@@ -136,7 +124,6 @@ heroku apps:rename natours-users
 * [Pug](https://pugjs.org/api/getting-started.html) - High performance template engine
 * [JSON Web Token](https://jwt.io/) - Security token
 * [ParcelJS](https://parceljs.org/) - Blazing fast, zero configuration web application bundler
-* [Stripe](https://stripe.com/) - Online payment API
 * [Postman](https://www.getpostman.com/) - API testing
 * [Mailtrap](https://mailtrap.io/) & [Sendgrid](https://sendgrid.com/) - Email delivery platform
 * [Heroku](https://www.heroku.com/) - Cloud platform
@@ -171,11 +158,6 @@ $ npm i eslint prettier eslint-config-prettier eslint-plugin-prettier eslint-con
 eslint-plugin-import eslint-plugin-jsx-a11y  eslint-plugin-react --save-dev
 ```
 
-
-## Known Bugs
-Feel free to email me at lakshman.gope2@gmail.com if you run into any issues or have questions, ideas or concerns.
-Please enjoy and feel free to share your opinion, constructive criticism, or comments about my work. Thank you! 🙂
-
 ## Future Updates
 
 * Enable PWA
@@ -183,7 +165,3 @@ Please enjoy and feel free to share your opinion, constructive criticism, or com
 * Featured Tours
 * Recently Viewed Tours
 * And More ! There's always room for improvement!
-
-## Acknowledgement
-
-* This project is part of the online course I've taken at Udemy. Thanks to Jonas Schmedtmann for creating this awesome course! Link to the course: [Node.js, Express, MongoDB & More: The Complete Bootcamp 2019](https://www.udemy.com/course/nodejs-express-mongodb-bootcamp/)
